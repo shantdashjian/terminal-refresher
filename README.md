@@ -109,7 +109,7 @@ The Shell is a program that executes Shell Script commands and programs. Those i
 ## .bashrc vs .bash_profile
 
 ### .bashrc
-It's for non-login terminal.
+It's for non-login terminal session.
 
 1. aliases
 2. prompt settings
@@ -117,7 +117,7 @@ It's for non-login terminal.
 4. functions
 
 ### .bash_profile
-It's for login terminals.
+It's for login terminal session.
 
 ```
 if [ -f ~/.bashrc ];then
